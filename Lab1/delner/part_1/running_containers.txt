@@ -1,0 +1,19 @@
+# show images 
+docker images
+
+# search & pull image from DockerHub
+docker search ... 
+docker pull ...
+
+# remove image 
+docker rmi image_id, tage ...
+
+# run, check, stop, remove container
+docker run ...
+docker ps 
+docker stop/kill ...
+
+docker rm $(docker ps -a -q)
+
+# will remove the container after it exits
+docker run --rm
